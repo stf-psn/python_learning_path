@@ -35,3 +35,7 @@ print(list_str)
 
 print(list_str.index('x'))
 # output is 5 because x is at index 5
+
+list_str.remove('y')
+print(list_str)
+# output is ['a', 'c', 'h', 'd', 'f', 'x', 'z']
