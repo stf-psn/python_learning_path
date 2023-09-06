@@ -28,3 +28,8 @@ print(list_str)
 list_str.insert(2, 'h')
 print(list_str)
 # output a,c,h,d,f
+
+list_str.extend(['x', 'y', 'z'])
+print(list_str)
+
+# output a,c,h,d,f,x,y,z
