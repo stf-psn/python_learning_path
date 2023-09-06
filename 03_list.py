@@ -31,5 +31,4 @@ print(list_str)
 
 list_str.extend(['x', 'y', 'z'])
 print(list_str)
-
 # output a,c,h,d,f,x,y,z
